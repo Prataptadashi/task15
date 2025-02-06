@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card-header {
+    padding: 20px;
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+
+
+
+  /* theme  */
+
+  /* Dark Theme */
+.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  .dark-theme .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  .dark-theme .card-header {
+    background-color: #333 !important;
+  }
+
+
+
+
+
+
+
+  /* hover  */  
+
+  /* Hover Animation for Pricing Table Buttons */
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover Animation for Theme Toggle Button */
+  #theme-toggle:hover {
+    background-color: #5a6268;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+  /* General Button Styling */
+  .btn {
+    transition: all 0.3s ease;
+  }
+
+
+
+
+
+
+
+  /*  */
+  /* Add Shadow on Hover */
+.btn-primary:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-success:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-warning:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #theme-toggle:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
